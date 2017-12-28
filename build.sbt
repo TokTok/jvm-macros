@@ -10,7 +10,7 @@ libraryDependencies ++= Seq(
 
 // Test dependencies.
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest" % "3.0.0"
+  "org.scalatest" %% "scalatest" % "3.2.0-SNAP7"
 ) map (_ % Test)
 
 import im.tox.sbt.lint.Scalastyle
